@@ -1,5 +1,5 @@
 from pathlib import Path
-from dispatcher import scan_folder
+from rivers.dispatcher import scan_folder
 
 def test_scan_folder(tmp_path):
     # create two dummy files
